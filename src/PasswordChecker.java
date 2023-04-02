@@ -2,11 +2,11 @@ import java.util.Scanner;
 
 public class PasswordChecker {
 
-    public static int makePasswordStrong(String password) {
+    public static int makePasswordStrong(String s) {
 
-        int stringLength = password.length();
+        int stringLength = s.length();
         
-        char[] characters = password.toCharArray();
+        char[] characters = s.toCharArray();
         
         boolean[] changesNeeded = {false, false, false};
         
